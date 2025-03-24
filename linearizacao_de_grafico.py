@@ -15,7 +15,7 @@ list_x = []
 # Loop que lê todas as planilhas
 
 for planilha in planilhas:
-    df = pd.read_excel(r"tabela_otimizada_alterada.xlsx"r"", sheet_name=planilha)
+    df = pd.read_excel("tabela_otimizada_alterada.xlsx", sheet_name=planilha)
 
     # Nomes das Colunas das planilhas
 
