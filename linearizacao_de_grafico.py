@@ -99,6 +99,9 @@ plt.plot(t, x2, label='Esfera 3: Diâmetro = 1,275 cm', color='#2ca02c')
 plt.plot(t, x3, label='Esfera 4: Diâmetro = 1,750 cm', color='#d62728')
 plt.plot(t, x4, label='Esfera 5: Diâmetro = 1,909 cm', color='#9467bd')
 
+plt.xlabel('Tempo em segundos (s)')
+plt.ylabel('Posição em metros (m)')
+plt.title('POSIÇÃO EM FUNÇÃO DO TEMPO')
 plt.legend()
 
 plt.show()
